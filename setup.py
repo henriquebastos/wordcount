@@ -10,5 +10,8 @@ setup(
     license='MIT',
     author='Henrique Bastos e Galera',
     author_email='henrique@bastos.net',
-    description='Conta as palavras'
+    description='Conta as palavras',
+    entry_points={
+        'console_scripts': ['wordcount=wordcount.__main__:main'],
+    },
 )
